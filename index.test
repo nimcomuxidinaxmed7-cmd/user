@@ -1,0 +1,5 @@
+const { products } = require("../index");
+
+test("products array works", () => {
+  expect(products).toEqual(["laptop", "phone", "headphones", "monitor"]);
+});
